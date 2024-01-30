@@ -5,8 +5,8 @@ ob.ehlo()
 ob.starttls()
 
 ob.login('l.29.maitreya@gmail.com','iakk serr qwjs ewlp')
-subject = "testing python"
-body = "I love Python"
+subject = input("Enter the Subject: ")
+body = input("Enter the body: ")
 message = f"subject:{subject}\n\n {body}"
 listadd = ['maitreyapani10@gmail.com', 'rituchhandapanigrahi@gmail.com']
 
